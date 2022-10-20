@@ -15,7 +15,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping(value="/")
+	@GetMapping(value="/green")
 	public String getMethodName() {
 		return DemoApplication.class.getName();
 	}
